@@ -1,0 +1,321 @@
+/*
+CSS 
+web o pagina:
+autor:
+fecha:
+RECORDAR:
+en caso de conflictos se aplica el estilo que se define último,
+o sea al final de este archivo o en la misma pagina html
+
+Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
+
+*/
+
+*{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    
+.marco {
+      display: grid;
+      border-style: ;
+      border-color: red;
+      overflow: visible;
+      grid-template-columns: 250px auto;
+      grid-template-rows: 150px 40px auto 40px;
+      grid-gap: 10px;
+      width: 100vw;
+      height: 100vh;
+    }
+    
+.encabezado {
+  border-style: ;
+  border-color: blue;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+    background-color: #83dedb;
+    }
+    
+.migas {
+  border-style: ;
+  border-color: yellow;
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+  background-color: #ededed;
+    }
+
+#PAactualidad  {
+  text-decoration: none;
+  color: #e09224;
+
+}
+
+#nVeces {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#PAinicio {
+  text-decoration: none;
+  color: #e09224;
+}
+
+.migas p {
+  margin-left: 10px;
+  text-decoration: none;
+}    
+
+.textomigas {
+      font-size: 18px;
+      padding: 5px;
+      font-family: Comic Sans MS;
+}
+
+.bitcoin {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  width: 30%;
+  background-color: black;
+
+}
+
+.imagenbit img {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.fotoclaves img {
+  width: 45%;
+  margin-left: 25%;
+}
+
+.textobit {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.fuente a {
+  color: red;
+}
+
+.fuente p {
+  margin-left: 40%;
+}    
+
+.lado {
+  border-style: ;
+  border-color: violet;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  background-color: #e09224;
+    }
+
+.navbar2 {
+  width: 60%;
+}
+.navbar2 a {
+  float: left;
+  font-size: 17px;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  width: 19.6vw;
+  text-decoration: none;
+}
+
+.navbar2 a:hover,.dropbtn2 {
+  background-color: #dddd;
+    }
+
+.dropdown-content2 {
+  display: none;
+  position: sticky;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    }
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    }
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+    }
+
+.dropdown-content2 {
+  display: block;
+    }    
+
+    
+.contenido {
+  border-style: ;
+  border-color: violet;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  overflow: auto;
+   background-color: rgba(255, 255, 255, 0.8);
+    }
+
+.foto img {
+  float:left;
+  clear:right;
+  margin:10px;
+  width:20%;
+  object-fit:cover;
+}
+
+.foto a:hover img {
+  border: solid;
+  color: purple;
+}
+
+.cenec img {
+  margin-top: 20px; 
+  width: 15%;
+  margin-left: 240px;
+}
+
+.cenec a:hover img {
+   border: solid;
+}
+
+.nombre {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.texto {
+  margin-left: 10px;
+  margin-top: 10px;: 
+}
+
+.encabezado p {
+  margin-top: 17px;
+  font-family: Comic Sans MS;
+  font-size: 14px;
+  color: ;
+}
+
+.encabezado a:hover p {
+  text-underline-position: 
+}
+    
+.pie {
+  border-style: ;
+  border-color: aqua;
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 1;
+  background-color: #ededed;
+  text-align: center;
+  color: gray;
+    }
+.pie p {
+  margin: 5px;
+}
+.pie a {
+  text-decoration: none;
+  color: gray;
+}     
+
+body {
+  margin:0px;
+    background-color: #83dedb;
+  font-family: 'Nunito', sans-serif;
+    }
+    
+.navbar {
+      overflow: hidden;
+      background-color: #e09224;
+      margin-top: 50px;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 17px;
+      color: white;
+      padding: 14px 16px;
+      width: auto;
+      text-align: center;
+      text-decoration: none;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .navbar a:hover, .dropbtn {
+      background-color: #dddd;
+      opacity: 0.9;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+.dropdown-content {
+      display: block;
+    }
+    
+    a:active {
+      color: black;
+      font-size:1.1em;
+      
+    }
+    
+    @media screen and (max-width:600px){
+      /* reparamos el estilo para pantallas estrechas */
+      
+      .navbar, .navbar a, .navbar>div, .dropbtn {
+        width:100%;
+        float: none;
+        display:block;
+      }
+        .dropdown-content a{
+        display:none;
+      }
+
+
+/*
+
+pseudoclases, asignarles estilos en este orden llamado LVHA:
+   :link — :visited — :hover — :active.
+   
+Más selectores y documentación:
+pseudo-clases: https://www.w3schools.com/css/css_pseudo_classes.asp
+pseudo-elementos: https://www.w3schools.com/css/css_pseudo_elements.asp
+pseudo-atributos: https://www.w3schools.com/css/css_attribute_selectors.asp
+formularios: https://www.w3schools.com/css/css_form.asp
+posicionamiento: https://www.w3schools.com/css/css_positioning.asp
+selectores: https://www.w3schools.com/cssref/css_selectors.asp
+*/
+
+
+
+
+
